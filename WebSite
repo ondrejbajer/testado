@@ -1,0 +1,25 @@
+<script type="application/ld+json">
+	{
+		"@context": "http://schema.org",
+		"@type": "WebSite",
+		"url": "https://www.testado.cz/",
+		"name": "Testado.cz",
+		"description": "Testado.cz je recenzní online magazín. Naši redaktoři osobně testují vybrané produkty a dále shromažďují tipy na nejlepší zařízení dle odborných a uživatelských recenzí. Na webu najdete doporučené mobilní telefony, televize, bílé zboží, malé spotřebiče a mnoho dalšího.",
+		"publisher": {
+			"@type": "Thing",
+			"name": "Testado.cz"
+		},
+		"potentialAction": {
+			"@type": "SearchAction",
+			"target": {
+				"@type": "EntryPoint",
+				"urlTemplate": "https://www.testado.cz/?s={search_term_string}"
+			},
+			"query-input": {
+				"@type": "PropertyValueSpecification",
+				"valueRequired": "http://schema.org/True",
+				"valueName": "search_term_string"
+			}
+		}
+	}
+</script>
