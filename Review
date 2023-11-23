@@ -1,0 +1,52 @@
+<script type="application/ld+json">
+                  {
+                    "@context": "https://schema.org/",
+                    "@type": "Review",
+                    "reviewBody": "<CF: perex/perex>",
+                    "datePublished": "<date_gmt>",
+                    "dateModified": "<modified_gmt>",
+                    "commentCount": "<Počet komentářů u review>",
+                  "itemReviewed": {
+                    "@type": "Product",
+                    "name": "<Název produktu>",
+                    "image": "<img produktu>",
+                    "description": "<popis produktu, ve zkratce>"
+                  },
+                  "author": {
+			              "@type": "Person",
+			              "name": "<author name>",
+			              "url": "<url autora>",
+			              "image": "<img autora>"
+		              },
+                  "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "<finální hodnocení číslo>",
+                    "bestRating": "100",
+                    "worstRating": "0"
+                  },
+                  "publisher": {
+                       "@type":"Organization",
+                       "name":"Testado.cz",
+                       "logo": {
+                         "@type":"ImageObject",
+                         "url":"https://www.testado.hu/wp-content/uploads/2023/02/testado-hu-logo.jpg"},
+                         "legalName":"Affiliana s.r.o.",
+                         "url":"https://www.testado.cz/wp-content/uploads/2019/05/web-cz.png",
+                         "foundingDate":"2019",
+                         "sameAs":[
+                           "https://www.facebook.com/testado.cz/",
+                           "https://twitter.com/testadocz",
+                           "https://www.youtube.com/channel/UCRRK7O_Ldg-aLu2hftSXASA",
+                           "https://cz.pinterest.com/testadocz/",
+                           "https://www.tiktok.com/@testado.cz"
+                         ],
+                         "address":{
+                           "@type":"PostalAddress",
+                             "streetAddress":"Mal\u00e9 n\u00e1m\u011bst\u00ed 14/30",
+                             "addressLocality":"Hradec Kr\u00e1lov\u00e9",
+                             "postalCode":"50003",
+                             "addressCountry":"Czech Republic"
+                         }
+                     }                  
+                }
+</script>
