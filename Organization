@@ -1,0 +1,7 @@
+{
+  "@context":"http:\/\/schema.org",
+    "@type":"Organization",
+    "name":"TVPoke.cz",
+    "url":"https:\/\/tvpoke.cz",
+    "logo":"<URL - Logo webu>"
+  },
